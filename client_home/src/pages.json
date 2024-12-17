@@ -1,0 +1,380 @@
+{
+	"topWindow": {
+		"path": "windows/page_header.vue",
+		"style": {
+			"height": "60px"
+		},
+		"matchMedia": {
+			"minWidth": 1200 //生效条件，当窗口宽度大于768px时显示
+		}
+	},
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path" : "pages/webview/webview",
+			"style" :
+			{
+				"navigationBarTitleText": "网址跳转"
+			}
+		},
+		{
+			"path": "pages/comment/edit",
+			"style": {
+				"navigationBarTitleText": "评论"
+			}
+		},
+		{
+			"path": "pages/media/music",
+			"style": {
+				"navigationBarTitleText": "音乐",
+				"backgroundColor": "#000000"
+			}
+		}, {
+			"path": "pages/media/image",
+			"style": {
+				"navigationBarTitleText": "图片预览",
+				"backgroundColor": "#000000"
+			}
+		}, {
+			"path": "pages/media/video",
+			"style": {
+				"navigationBarTitleText": "视频",
+				"backgroundColor": "#000000"
+			}
+		}, {
+			"path": "pages/account/forgot",
+			"style": {
+				"navigationBarTitleText": "找回密码"
+			}
+		}, {
+			"path": "pages/account/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/account/register",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/notice/list",
+			"style": {
+				"navigationBarTitleText": "公告栏列表"
+			}
+		},
+		{
+			"path": "pages/notice/details",
+			"style": {
+				"navigationBarTitleText": "公告栏"
+			}
+		},
+													// 学生文章列表路由
+		{
+			"path": "pages/student_articles/list",
+			"style": {
+				"navigationBarTitleText": "学生文章列表"
+			}
+		},
+				// 学生文章详情路由
+		{
+			"path": "pages/student_articles/details",
+			"style": {
+				"navigationBarTitleText": "学生文章"
+			}
+		},
+					// 职工文章列表路由
+		{
+			"path": "pages/employee_articles/list",
+			"style": {
+				"navigationBarTitleText": "职工文章列表"
+			}
+		},
+				// 职工文章详情路由
+		{
+			"path": "pages/employee_articles/details",
+			"style": {
+				"navigationBarTitleText": "职工文章"
+			}
+		},
+					// 校园文章列表路由
+		{
+			"path": "pages/campus_articles/list",
+			"style": {
+				"navigationBarTitleText": "校园文章列表"
+			}
+		},
+				// 校园文章详情路由
+		{
+			"path": "pages/campus_articles/details",
+			"style": {
+				"navigationBarTitleText": "校园文章"
+			}
+		},
+																	// 互助信息列表路由
+		{
+			"path": "pages/help_information/list",
+			"style": {
+				"navigationBarTitleText": "互助信息列表"
+			}
+		},
+				// 互助信息详情路由
+		{
+			"path": "pages/help_information/details",
+			"style": {
+				"navigationBarTitleText": "互助信息"
+			}
+		},
+										// 学生用户列表路由
+		{
+			"path": "pages/student_users/table",
+			"style": {
+				"navigationBarTitleText": "学生用户列表"
+			}
+		},
+		// 学生用户编辑路由
+		{
+			"path": "pages/student_users/view",
+			"style": {
+				"navigationBarTitleText": "学生用户详情"
+			}
+		},
+				// 工作人员列表路由
+		{
+			"path": "pages/working_personnel/table",
+			"style": {
+				"navigationBarTitleText": "工作人员列表"
+			}
+		},
+		// 工作人员编辑路由
+		{
+			"path": "pages/working_personnel/view",
+			"style": {
+				"navigationBarTitleText": "工作人员详情"
+			}
+		},
+				// 文章分类列表路由
+		{
+			"path": "pages/article_classification/table",
+			"style": {
+				"navigationBarTitleText": "文章分类列表"
+			}
+		},
+		// 文章分类编辑路由
+		{
+			"path": "pages/article_classification/view",
+			"style": {
+				"navigationBarTitleText": "文章分类详情"
+			}
+		},
+				// 学生文章列表路由
+		{
+			"path": "pages/student_articles/table",
+			"style": {
+				"navigationBarTitleText": "学生文章列表"
+			}
+		},
+		// 学生文章编辑路由
+		{
+			"path": "pages/student_articles/view",
+			"style": {
+				"navigationBarTitleText": "学生文章详情"
+			}
+		},
+				// 职工文章列表路由
+		{
+			"path": "pages/employee_articles/table",
+			"style": {
+				"navigationBarTitleText": "职工文章列表"
+			}
+		},
+		// 职工文章编辑路由
+		{
+			"path": "pages/employee_articles/view",
+			"style": {
+				"navigationBarTitleText": "职工文章详情"
+			}
+		},
+				// 校园文章列表路由
+		{
+			"path": "pages/campus_articles/table",
+			"style": {
+				"navigationBarTitleText": "校园文章列表"
+			}
+		},
+		// 校园文章编辑路由
+		{
+			"path": "pages/campus_articles/view",
+			"style": {
+				"navigationBarTitleText": "校园文章详情"
+			}
+		},
+				// 宿舍报修列表路由
+		{
+			"path": "pages/dormitory_repair_report/table",
+			"style": {
+				"navigationBarTitleText": "宿舍报修列表"
+			}
+		},
+		// 宿舍报修编辑路由
+		{
+			"path": "pages/dormitory_repair_report/view",
+			"style": {
+				"navigationBarTitleText": "宿舍报修详情"
+			}
+		},
+				// 室内报修列表路由
+		{
+			"path": "pages/indoor_repair_report/table",
+			"style": {
+				"navigationBarTitleText": "室内报修列表"
+			}
+		},
+		// 室内报修编辑路由
+		{
+			"path": "pages/indoor_repair_report/view",
+			"style": {
+				"navigationBarTitleText": "室内报修详情"
+			}
+		},
+				// 室外报修列表路由
+		{
+			"path": "pages/outdoor_repair_report/table",
+			"style": {
+				"navigationBarTitleText": "室外报修列表"
+			}
+		},
+		// 室外报修编辑路由
+		{
+			"path": "pages/outdoor_repair_report/view",
+			"style": {
+				"navigationBarTitleText": "室外报修详情"
+			}
+		},
+				// 网络报修列表路由
+		{
+			"path": "pages/network_repair_report/table",
+			"style": {
+				"navigationBarTitleText": "网络报修列表"
+			}
+		},
+		// 网络报修编辑路由
+		{
+			"path": "pages/network_repair_report/view",
+			"style": {
+				"navigationBarTitleText": "网络报修详情"
+			}
+		},
+				// 互助信息列表路由
+		{
+			"path": "pages/help_information/table",
+			"style": {
+				"navigationBarTitleText": "互助信息列表"
+			}
+		},
+		// 互助信息编辑路由
+		{
+			"path": "pages/help_information/view",
+			"style": {
+				"navigationBarTitleText": "互助信息详情"
+			}
+		},
+				// 用户反馈列表路由
+		{
+			"path": "pages/user_feedback/table",
+			"style": {
+				"navigationBarTitleText": "用户反馈列表"
+			}
+		},
+		// 用户反馈编辑路由
+		{
+			"path": "pages/user_feedback/view",
+			"style": {
+				"navigationBarTitleText": "用户反馈详情"
+			}
+		},
+				// 职工反馈列表路由
+		{
+			"path": "pages/employee_feedback/table",
+			"style": {
+				"navigationBarTitleText": "职工反馈列表"
+			}
+		},
+		// 职工反馈编辑路由
+		{
+			"path": "pages/employee_feedback/view",
+			"style": {
+				"navigationBarTitleText": "职工反馈详情"
+			}
+		},
+			{
+			"path": "pages/user/collect",
+			"style": {
+				"navigationBarTitleText": "我的收藏"
+			}
+		},
+		{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "我"
+			}
+		}, {
+			"path": "pages/user/password",
+			"style": {
+				"navigationBarTitleText": "修改密码"
+			}
+		}, {
+			"path": "pages/user/info",
+			"style": {
+				"navigationBarTitleText": "基本信息"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "长盛",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+		"color": "#8a8a8a",
+		"selectedColor": "#3388FF",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/img/home_a.png",
+				"selectedIconPath": "static/img/home_b.png"
+			},
+			{
+				"pagePath": "pages/user/index",
+				"text": "我的",
+				"iconPath": "static/img/my_a.png",
+				"selectedIconPath": "static/img/my_b.png"
+			}
+		]
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^mm_(.*)": "@/components/mm_vue_ui/base/mm_$1.vue"
+		}
+	}
+}
